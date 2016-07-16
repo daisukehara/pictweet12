@@ -8,7 +8,7 @@ class TweetsController < ApplicationController
   end
 
   def create
-    Tweet.creat(tweet_params)
+    Tweet.create(tweet_params)
   end
 
   def destroy
